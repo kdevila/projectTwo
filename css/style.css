@@ -1,0 +1,25 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #66b8db;
+    font-family: "Nothing You Could Do";
+    font-weight: 400;
+}
+
+/*text on pages*/
+
+h2:hover{
+color: #801a0f;
+font-size: 30px;
+text-transform: uppercase;
+}
+
+
+section{
+margin:30px;
+padding:80px;
+text-align: center;
+}
+
