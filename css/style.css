@@ -1,25 +1,93 @@
 *{
     text-decoration: none;
+    margin: 0;
 }
 
 body{
     background-color: #66b8db;
     font-family: "Nothing You Could Do";
-    font-weight: 400;
+    font-weight: 200;
 }
 
-/*text on pages*/
-
-h2:hover{
-color: #801a0f;
-font-size: 30px;
-text-transform: uppercase;
+#box{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+padding-top: 100px;
 }
-
 
 section{
-margin:30px;
-padding:80px;
-text-align: center;
+    margin:30px;
+    padding:80px;
+    text-align: center;
+    }
+
+/*PAGES*/
+.page1{
+color: #002a6161;
+text-transform: uppercase;
+font-size: 180px;
 }
 
+/*homepage animations*/
+#faded {
+    animation-name: faded;
+    animation-delay: 1.2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes faded{
+    from {
+        position: relative;
+        top: 0px;
+    }
+    to {
+        position: relative;
+        top: -80px;
+        font-size: 70px;
+    }
+}
+
+#tears {
+    animation-name: tears;
+    animation-delay: 4s;
+    animation-direction:normal;
+    animation-duration: 6s;
+    animation-fill-mode:backwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+@keyframes tears {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 12;
+    }
+}
+
+strong {
+    font-style: normal;
+    animation-name: pulse;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes pulse{
+    50% {
+        color: #002a61;
+        text-shadow: 0px 0px 10px;
+    }
+
+    100% {
+        color: #002a6161;
+        text-shadow: none;   
+    }
+}   
+/*pagetwo*/
