@@ -16,24 +16,24 @@ body{
 #box{
 display: flex;
 flex-direction: row;
-flex-wrap: nowrap;
-padding-top: 100px;
+flex-wrap:wrap;
+justify-content: center;
+padding:15%;
 }
 
 section{
     margin:30px;
-    padding:80px;
     text-align: center;
-    }
+}
 
 /*PAGES*/
-.page1{
+.page{
 color: #002a6161;
 text-transform: uppercase;
 font-size: 180px;
 }
 
-/*homepage animations*/
+/*page animations*/
 #faded {
     animation-name: faded;
     animation-delay: 1.2s;
@@ -94,4 +94,113 @@ strong {
         text-shadow: none;   
     }
 }   
-/*pagetwo*/
+
+/*animation for last pg*/
+#box2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding:15%;
+}
+
+#letterT{
+    color: antiquewhite;
+    position: absolute;
+    top: 300px;
+    left: 190px;
+    animation-name: through;
+    animation-duration: 1s;
+    animation-delay: 1000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#letterH1{
+    color: antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    animation-name: through;
+    animation-duration: 1s;
+    animation-delay: 1500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+#letterR{
+    color: antiquewhite;
+    position: absolute;
+    top:500px;
+    left: 470px;
+    animation-name: through;
+    animation-duration: 1s;
+    animation-delay: 2000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#letterO{
+    color:antiquewhite;
+    position: absolute;
+    top: 600px;
+    left: 620px;
+    animation-name: through;
+    animation-duration: 1s;
+    animation-delay: 2500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#letterU{
+    color:antiquewhite;
+    position: absolute;
+    top: 500px;
+    left: 770px;
+    animation-name: through;
+    animation-duration: 1s;
+    animation-delay: 3000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#letterG{
+    color:antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    animation-name: through;
+    animation-duration: 1s;
+    animation-delay: 3500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#letterH2{
+    color: antiquewhite;
+    position: absolute;
+    top: 320px;
+    left: 1150px;
+    animation-name: through;
+    animation-duration: 1s;
+    animation-delay: 4000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes through {
+    0% {
+        opacity: 0;
+        font-size: 48px;
+    }
+    100% {
+        color:red;
+        opacity: 1;
+        font-size: 200px;
+    }
+}
+
+
+
