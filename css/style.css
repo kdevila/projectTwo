@@ -191,7 +191,6 @@ strong {
     animation-fill-mode: forwards;
 }
 
-
 @keyframes through {
     100% {
         color:red;
@@ -199,6 +198,3 @@ strong {
         font-size: 162px;
     }
 }
-
-
-
