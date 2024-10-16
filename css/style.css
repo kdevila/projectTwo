@@ -97,6 +97,35 @@ strong {
     }
 }   
 
+/*animation for 'fooled' 2nd pg*/
+svg {
+	font-family: "Nothing You Could Do", sans-serif;
+	width: 100%; height: 100%;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+svg text {
+	animation: stroke 10s infinite alternate-reverse;
+	stroke-width: 2;
+	stroke: #A00000;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(204,52,8,0); stroke: rgba(160,0,0,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+        font-size: 50px;
+	}
+	70%  {fill: rgba(204,52,8,0); stroke: rgba(160,0,0,1); }
+	80%  {fill: rgba(204,52,8,0); stroke: rgba(160,0,0,1); stroke-width: 3; }
+	100% {
+		fill: rgba(204,52,8,1); stroke: rgba(160,0,0,0);
+		stroke-dashoffset: -75%; stroke-dasharray: 50% 0; stroke-width: 0;
+        font-size: 175px;
+	}
+}
+
+.wrapper {background-color: #66b8db};
+
 /*animation for last pg*/
 #box2{
     display: flex;
@@ -110,7 +139,7 @@ strong {
     color: #66b8db;
     position:absolute;
     top: 175px;
-    left: 20px;
+    left: 2px;
     animation-name: through;
     animation-duration: 3.5s;
     animation-delay: 1000ms;
@@ -122,7 +151,7 @@ strong {
     color: #66b8db;
     position: absolute;
     top: 300px;
-    left: 150px;
+    left: 100px;
     animation-name: through;
     animation-duration: 3.8s;
     animation-delay: 1500ms;
@@ -135,7 +164,7 @@ strong {
     color: #66b8db;
     position: absolute;
     top:400px;
-    left: 340px;
+    left: 250px;
     animation-name: through;
     animation-duration: 4s;
     animation-delay: 2000ms;
@@ -147,7 +176,7 @@ strong {
     color: #66b8db;
     position: absolute;
     top: 500px;
-    left: 470px;
+    left: 410px;
     animation-name: through;
     animation-duration: 4.3s;
     animation-delay: 2500ms;
@@ -159,7 +188,7 @@ strong {
     color: #66b8db;
     position: absolute;
     top: 400px;
-    left: 600px;
+    left: 550px;
     animation-name: through;
     animation-duration: 4.6s;
     animation-delay: 3000ms;
@@ -171,7 +200,7 @@ strong {
     color: #66b8db;
     position: absolute;
     top: 300px;
-    left: 800px;
+    left: 715px;
     animation-name: through;
     animation-duration: 5.1s;
     animation-delay: 3500ms;
@@ -182,8 +211,8 @@ strong {
 #letterH2{
     color: #66b8db;
     position: absolute;
-    top: 175px;
-    left: 900px;
+    top: 178px;
+    left: 800px;
     animation-name: through;
     animation-duration: 5.4s;
     animation-delay: 4000ms;
@@ -195,6 +224,6 @@ strong {
     100% {
         color:red;
         opacity: 1;
-        font-size: 162px;
+        font-size: 140px;
     }
 }
