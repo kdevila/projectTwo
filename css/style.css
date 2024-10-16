@@ -11,6 +11,7 @@ body{
     background-color: #66b8db;
     font-family: "Nothing You Could Do";
     font-weight: 200;
+    overflow: hidden;
 }
 
 #box{
@@ -107,8 +108,8 @@ strong {
 #letterT{
     color: antiquewhite;
     position: absolute;
-    top: 300px;
-    left: 190px;
+    top: 175px;
+    left: 20px;
     animation-name: through;
     animation-duration: 1s;
     animation-delay: 1000ms;
@@ -119,8 +120,8 @@ strong {
 #letterH1{
     color: antiquewhite;
     position: absolute;
-    top: 400px;
-    left: 300px;
+    top: 300px;
+    left: 150px;
     animation-name: through;
     animation-duration: 1s;
     animation-delay: 1500ms;
@@ -132,8 +133,8 @@ strong {
 #letterR{
     color: antiquewhite;
     position: absolute;
-    top:500px;
-    left: 470px;
+    top:400px;
+    left: 340px;
     animation-name: through;
     animation-duration: 1s;
     animation-delay: 2000ms;
@@ -144,8 +145,8 @@ strong {
 #letterO{
     color:antiquewhite;
     position: absolute;
-    top: 600px;
-    left: 620px;
+    top: 500px;
+    left: 470px;
     animation-name: through;
     animation-duration: 1s;
     animation-delay: 2500ms;
@@ -156,8 +157,8 @@ strong {
 #letterU{
     color:antiquewhite;
     position: absolute;
-    top: 500px;
-    left: 770px;
+    top: 400px;
+    left: 600px;
     animation-name: through;
     animation-duration: 1s;
     animation-delay: 3000ms;
@@ -168,8 +169,8 @@ strong {
 #letterG{
     color:antiquewhite;
     position: absolute;
-    top: 400px;
-    left: 1000px;
+    top: 300px;
+    left: 800px;
     animation-name: through;
     animation-duration: 1s;
     animation-delay: 3500ms;
@@ -180,8 +181,8 @@ strong {
 #letterH2{
     color: antiquewhite;
     position: absolute;
-    top: 320px;
-    left: 1150px;
+    top: 175px;
+    left: 900px;
     animation-name: through;
     animation-duration: 1s;
     animation-delay: 4000ms;
@@ -191,14 +192,10 @@ strong {
 
 
 @keyframes through {
-    0% {
-        opacity: 0;
-        font-size: 48px;
-    }
     100% {
         color:red;
         opacity: 1;
-        font-size: 200px;
+        font-size: 162px;
     }
 }
 
