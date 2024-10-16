@@ -106,24 +106,24 @@ strong {
 }
 
 #letterT{
-    color: antiquewhite;
-    position: absolute;
+    color: #66b8db;
+    position:absolute;
     top: 175px;
     left: 20px;
     animation-name: through;
-    animation-duration: 1s;
+    animation-duration: 3.5s;
     animation-delay: 1000ms;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
 }
 
 #letterH1{
-    color: antiquewhite;
+    color: #66b8db;
     position: absolute;
     top: 300px;
     left: 150px;
     animation-name: through;
-    animation-duration: 1s;
+    animation-duration: 3.8s;
     animation-delay: 1500ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -131,60 +131,60 @@ strong {
 }
 
 #letterR{
-    color: antiquewhite;
+    color: #66b8db;
     position: absolute;
     top:400px;
     left: 340px;
     animation-name: through;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-delay: 2000ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 #letterO{
-    color:antiquewhite;
+    color: #66b8db;
     position: absolute;
     top: 500px;
     left: 470px;
     animation-name: through;
-    animation-duration: 1s;
+    animation-duration: 4.3s;
     animation-delay: 2500ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 #letterU{
-    color:antiquewhite;
+    color: #66b8db;
     position: absolute;
     top: 400px;
     left: 600px;
     animation-name: through;
-    animation-duration: 1s;
+    animation-duration: 4.6s;
     animation-delay: 3000ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 #letterG{
-    color:antiquewhite;
+    color: #66b8db;
     position: absolute;
     top: 300px;
     left: 800px;
     animation-name: through;
-    animation-duration: 1s;
+    animation-duration: 5.1s;
     animation-delay: 3500ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 #letterH2{
-    color: antiquewhite;
+    color: #66b8db;
     position: absolute;
     top: 175px;
     left: 900px;
     animation-name: through;
-    animation-duration: 1s;
+    animation-duration: 5.4s;
     animation-delay: 4000ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
