@@ -27,6 +27,7 @@ I believe that acknowledging our past, even difficult moments, can help us move 
 
 ###### animation types: ######
 For animations, I chose to do glow effects on certain words and also appearing-- "breathing" letters.
+Other animations presented use elements of SVG code, animation speed elements, and more. All acknowledgements listed below.
 
 ##### code editor used: https://code.visualstudio.com/ #####
 
@@ -37,5 +38,7 @@ For animations, I chose to do glow effects on certain words and also appearing--
     <li>https://jwoakley.github.io/projectTwoExamples/zanett/index.html</li>
     <li>https://jwoakley.github.io/projectTwoExamples/kimberly/index.html</li>
     <li>https://jwoakley.github.io/projectTwoExamples/donovan/index.html</li>
+    <li>https://www.cssportal.com/css-animated-text-generator/</li>
 </ul>
  
+

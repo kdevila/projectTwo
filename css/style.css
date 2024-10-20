@@ -107,7 +107,7 @@ svg {
 svg text {
 	animation: stroke 10s infinite alternate-reverse;
 	stroke-width: 2;
-	stroke: #A00000;
+    stroke: #A00000;
 }
 @keyframes stroke {
 	0%   {
