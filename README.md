@@ -34,10 +34,15 @@ Other animations presented use elements of SVG code, animation speed elements, a
 
 # acknowledgment
 ###### sites referenced for animation inspiration: ######
+#### student example sites ####
 <ul>
     <li>https://jwoakley.github.io/projectTwoExamples/zanett/index.html</li>
     <li>https://jwoakley.github.io/projectTwoExamples/kimberly/index.html</li>
     <li>https://jwoakley.github.io/projectTwoExamples/donovan/index.html</li>
+</ul>
+
+#### https://www.cssportal.com ####
+<ul>
     <li>https://www.cssportal.com/css-animated-text-generator/</li>
 </ul>
  
