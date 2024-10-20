@@ -41,7 +41,7 @@ Other animations presented use elements of SVG code, animation speed elements, a
     <li>https://jwoakley.github.io/projectTwoExamples/donovan/index.html</li>
 </ul>
 
-#### https://www.cssportal.com ####
+#### css reference site: https://www.cssportal.com ####
 <ul>
     <li>https://www.cssportal.com/css-animated-text-generator/</li>
 </ul>
