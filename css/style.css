@@ -8,7 +8,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: #66b8db;
+    background-image:radial-gradient(#66b8db,#3881a0,#154255);
     font-family: "Nothing You Could Do";
     font-weight: 200;
     overflow: hidden;
@@ -16,15 +16,14 @@ body{
 }
 
 #box{
-display: flex;
-flex-direction: row;
-flex-wrap:wrap;
-justify-content: center;
-padding:15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    padding:15%;
 }
 
 section{
-    margin:30px;
     text-align: center;
 }
 
@@ -35,7 +34,7 @@ text-transform: uppercase;
 font-size: 180px;
 }
 
-/*page animations*/
+/*for all pgs*/
 #faded {
     animation-name: faded;
     animation-delay: 1.2s;
@@ -54,7 +53,7 @@ font-size: 180px;
     to {
         position: relative;
         top: -80px;
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
@@ -97,6 +96,25 @@ strong {
     }
 }   
 
+/*1st pg animations*/
+#cry {
+    color:antiquewhite;
+    animation-name: cry;
+    animation-duration: 5s;
+    animation-delay: 2s; 
+    animation-iteration-count:1;
+    }
+
+@keyframes cry {  
+  100%{
+    letter-spacing: normal;
+  }  
+  70%, 50%{
+    letter-spacing: 20px;
+  }
+}
+
+
 /*animation for 'fooled' 2nd pg*/
 svg {
 	font-family: "Nothing You Could Do", sans-serif;
@@ -124,7 +142,7 @@ svg text {
 	}
 }
 
-.wrapper {background-color: #66b8db};
+.wrapper {background-color:none};
 
 /*animation for last pg*/
 #box2{
@@ -136,10 +154,10 @@ svg text {
 }
 
 #letterT{
-    color: #66b8db;
+    color: #66b8db00;
     position:absolute;
-    top: 175px;
-    left: 2px;
+    top: 300px;
+    left: 150px;
     animation-name: through;
     animation-duration: 3.5s;
     animation-delay: 1000ms;
@@ -148,10 +166,10 @@ svg text {
 }
 
 #letterH1{
-    color: #66b8db;
+    color: #66b8db00;
     position: absolute;
-    top: 300px;
-    left: 100px;
+    top: 280px;
+    left: 320px;
     animation-name: through;
     animation-duration: 3.8s;
     animation-delay: 1500ms;
@@ -161,10 +179,10 @@ svg text {
 }
 
 #letterR{
-    color: #66b8db;
+    color: #66b8db00;
     position: absolute;
-    top:400px;
-    left: 250px;
+    top:300px;
+    left: 500px;
     animation-name: through;
     animation-duration: 4s;
     animation-delay: 2000ms;
@@ -173,10 +191,10 @@ svg text {
 }
 
 #letterO{
-    color: #66b8db;
+    color: #66b8db00;
     position: absolute;
-    top: 500px;
-    left: 410px;
+    top: 290px;
+    left: 650px;
     animation-name: through;
     animation-duration: 4.3s;
     animation-delay: 2500ms;
@@ -185,10 +203,10 @@ svg text {
 }
 
 #letterU{
-    color: #66b8db;
+    color: #66b8db00;
     position: absolute;
-    top: 400px;
-    left: 550px;
+    top: 320px;
+    left: 800px;
     animation-name: through;
     animation-duration: 4.6s;
     animation-delay: 3000ms;
@@ -197,10 +215,10 @@ svg text {
 }
 
 #letterG{
-    color: #66b8db;
+    color: #66b8db00;
     position: absolute;
     top: 300px;
-    left: 715px;
+    left: 990px;
     animation-name: through;
     animation-duration: 5.1s;
     animation-delay: 3500ms;
@@ -209,10 +227,22 @@ svg text {
 }
 
 #letterH2{
-    color: #66b8db;
+    color: #66b8db00;
     position: absolute;
-    top: 178px;
-    left: 800px;
+    top: 280px;
+    left: 1100px;
+    animation-name: through;
+    animation-duration: 5.4s;
+    animation-delay: 4000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#speccharacter{
+    color: #66b8db00;
+    position: absolute;
+    top: 290px;
+    left: 1250px;
     animation-name: through;
     animation-duration: 5.4s;
     animation-delay: 4000ms;

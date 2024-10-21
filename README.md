@@ -39,6 +39,7 @@ Other animations presented use elements of SVG code, animation speed elements, a
     <li>https://jwoakley.github.io/projectTwoExamples/zanett/index.html</li>
     <li>https://jwoakley.github.io/projectTwoExamples/kimberly/index.html</li>
     <li>https://jwoakley.github.io/projectTwoExamples/donovan/index.html</li>
+   <li>https://jwoakley.github.io/projectTwoExamples/sophie/index.html</li>
 </ul>
 
 #### css reference site: https://www.cssportal.com ####
