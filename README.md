@@ -16,13 +16,16 @@ I believe that acknowledging our past, even difficult moments, can help us move 
     <li>https://fonts.google.com/specimen/Nothing+You+Could+Do</li>
 </ul>
 
-###### colors used: ######
+###### primary colors used: ######
 <ul>
     <li>#66b8db</li>
+    <li>#66b8db00</li>
     <li>#002a61</li>
     <li>#002a6161</li>
+    <li>#3881a0</li>
+    <li>#154255</li>
+    <li>#faebd7 (aka antiquewhite)</li>
     <li>#ff0000 (aka red)</li>
-
 </ul>
 
 ###### animation types: ######
