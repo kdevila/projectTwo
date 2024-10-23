@@ -70,7 +70,7 @@ font-size: 180px;
 
 #tears {
     animation-name: tears;
-    animation-delay: 4s;
+    animation-delay: 2s;
     animation-direction:normal;
     animation-duration: 6s;
     animation-fill-mode:backwards;
